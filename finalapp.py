@@ -21,6 +21,11 @@ nltk.download('punkt_tab', download_dir='nltk_data')
 nltk.download('stopwords', download_dir='nltk_data')
 nltk.download('wordnet', download_dir='nltk_data')
 nltk.download('vader_lexicon', download_dir='nltk_data')
+import nltk
+import os
+
+nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
+nltk.data.path.append(nltk_data_path)
 
 
 COHERE_API_KEY = "HNrggtGmhoC2Ewkitr7qAVhpuOcIo1x91Tukl2f1"  # Replace with your real API key
