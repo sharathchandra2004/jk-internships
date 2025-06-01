@@ -5,6 +5,7 @@ import cohere
 import re
 from datetime import datetime
 import nltk
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -16,7 +17,6 @@ import plotly.express as px
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 # Load NLTK resources
-nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('vader_lexicon')
