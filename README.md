@@ -87,4 +87,8 @@ For any inquiries or support, please reach out via GitHub Issues.
 
 ---
 
+<<<<<<< HEAD
 *Textile Risk Dashboard &copy; 2024 - Built with ❤️ using Streamlit* 
+=======
+*Textile Risk Dashboard &copy; 2024 - Built with ❤️ using Streamlit*
+>>>>>>> b0447f90163a383a7a7494e26b068d640bf9160f
