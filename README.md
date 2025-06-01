@@ -38,11 +38,11 @@ To run this project locally, follow these steps:
    ```
 
 3. **API Key Setup**:
-   Replace the placeholder Cohere API key in `sample.py` with your own key. You can obtain an API key from [Cohere](https://cohere.ai/).
+   Replace the placeholder Cohere API key in `finalapp.py` with your own key. You can obtain an API key from [Cohere](https://cohere.ai/).
 
 4. **Run the Application**:
    ```bash
-   streamlit run sample.py
+   streamlit run finalapp.py
    ```
    The app will open in your default web browser at `http://localhost:8501`.
 
