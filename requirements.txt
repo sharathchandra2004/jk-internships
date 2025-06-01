@@ -1,18 +1,18 @@
 # Requirements for Textile Dye Supplier Risk Analysis Dashboard
 
 # Core dependencies for the Streamlit app
-streamlit==1.29.0
-pandas==2.1.4
-plotly==5.18.0
+streamlit
+pandas
+plotly
 
 # Natural Language Processing libraries
-nltk==3.8.1
-cohere==4.37
+nltk
+cohere
 
 # Machine Learning libraries
-scikit-learn==1.3.2
+scikit-learn
 
 # Additional utilities
-json5==0.9.14
-regex==2023.10.3 
+json5
+regex 
 
