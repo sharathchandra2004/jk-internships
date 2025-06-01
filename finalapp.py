@@ -4,8 +4,6 @@ import json
 import cohere
 import re
 from datetime import datetime
-import nltk
-nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -16,10 +14,14 @@ from sklearn.metrics import classification_report
 import plotly.express as px
 from nltk.sentiment import SentimentIntensityAnalyzer
 
-# Load NLTK resources
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('vader_lexicon')
+import nltk
+
+nltk.download('punkt', download_dir='nltk_data')
+nltk.download('punkt_tab', download_dir='nltk_data')
+nltk.download('stopwords', download_dir='nltk_data')
+nltk.download('wordnet', download_dir='nltk_data')
+nltk.download('vader_lexicon', download_dir='nltk_data')
+
 
 COHERE_API_KEY = "HNrggtGmhoC2Ewkitr7qAVhpuOcIo1x91Tukl2f1"  # Replace with your real API key
 co = cohere.Client(COHERE_API_KEY)
