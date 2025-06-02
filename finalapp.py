@@ -28,7 +28,7 @@ nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
 nltk.data.path.append(nltk_data_path)
 
 
-COHERE_API_KEY = "I40ylUtjKfEbFoJUJ6bZTBhP6out7lWjFN24T8eC"  # Replace with your real API key
+COHERE_API_KEY = "3YcnwjTjyDNDUHJ3gF7Gu4F6Sc2t3e54Le8Zss64"  # Replace with your real API key
 co = cohere.Client(COHERE_API_KEY)
 
 # Suppliers and risks lists
