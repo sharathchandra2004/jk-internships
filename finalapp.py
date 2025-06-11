@@ -30,7 +30,7 @@ nltk.data.path.append(nltk_data_path)
 
 
 
-co = cohere.Client(st.secrets["cohere_api_key"])
+co = cohere.Client(st.secrets["COHERE_API_KEY"])
 
 
 
