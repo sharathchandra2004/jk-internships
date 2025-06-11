@@ -29,7 +29,9 @@ nltk.data.path.append(nltk_data_path)
 
 
 
-cohere_api_key = st.secrets["COHERE_API_KEY"]
+
+co = cohere.Client(st.secrets["cohere_api_key"])
+
 
 
 # Suppliers and risks lists
